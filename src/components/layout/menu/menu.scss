@@ -1,0 +1,51 @@
+@import '../../../css/config';
+nav {
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  color:  rgb(212, 204, 196);
+  // color: white;
+  // background-color: rgb(138, 133, 133);
+  // color: black;
+  height: $menu-heigth;
+
+  display:grid;
+  grid-template-columns: 1fr minmax(550px, 800px) 1fr;
+
+  #menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+
+    .menu-item:hover {
+      transform: translate(0, 5px);
+      cursor: pointer;
+    }
+
+    .active {
+      border-bottom: 2px solid rgba($color: $primary-ocre, $alpha:0.9); ;
+    }
+  }
+
+  
+
+}
+
+@include mediaSm {
+  nav {
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    color:  rgb(212, 204, 196);
+    // color: white;
+    // background-color: rgb(138, 133, 133);
+    // color: black;
+    height: $menu-heigth;
+    .barraMenu{
+      display:none;
+    }
+    #menu {
+      display: none;
+    }
+  }
+}

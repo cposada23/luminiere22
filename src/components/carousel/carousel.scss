@@ -1,0 +1,10 @@
+@import '../../css/config';
+
+.main-carousel {
+
+  height:calc(100vh - (18vh + 3rem));
+  background-color: rgba($color: $primary-ocre, $alpha:0.9);
+  .test-backCarousel {
+    height:calc(100vh - (18vh + 3rem));
+  }
+}

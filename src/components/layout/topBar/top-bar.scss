@@ -1,0 +1,13 @@
+@import '../../../css/config';
+
+#top-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: black;
+  color: white;
+  // background-color: rgb(138, 133, 133);
+  // color: black;
+  // padding-top: x;
+  height: 1.5rem;
+}

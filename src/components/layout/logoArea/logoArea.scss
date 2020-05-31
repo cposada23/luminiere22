@@ -1,0 +1,17 @@
+@import '../../../css/config';
+
+.logo-area {
+  width: 100%;
+  margin: 0 auto;
+  height: $logo-heigth; // todo cambiar esto por max and min
+  // background-color: rgb(34, 34, 34);
+  // background-color: rgb(14, 13, 13);
+  background-color: rgb(212, 204, 196);
+  color: white;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2px; 
+    height: 95%;
+  }
+}
